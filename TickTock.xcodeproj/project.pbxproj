@@ -8,11 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		4D31C7781F30C2FC00B6C9C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31C7771F30C2FC00B6C9C5 /* AppDelegate.swift */; };
-		4D31C77A1F30C2FC00B6C9C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31C7791F30C2FC00B6C9C5 /* ViewController.swift */; };
 		4D31C77D1F30C2FC00B6C9C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D31C77B1F30C2FC00B6C9C5 /* Main.storyboard */; };
 		4D31C77F1F30C2FC00B6C9C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D31C77E1F30C2FC00B6C9C5 /* Assets.xcassets */; };
 		4D31C7821F30C2FC00B6C9C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D31C7801F30C2FC00B6C9C5 /* LaunchScreen.storyboard */; };
 		4D31C78D1F30C2FC00B6C9C5 /* TickTockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31C78C1F30C2FC00B6C9C5 /* TickTockTests.swift */; };
+		4D31C7A81F30C31900B6C9C5 /* PolarPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31C7971F30C31800B6C9C5 /* PolarPoint.swift */; };
+		4D31C7A91F30C31900B6C9C5 /* Dependent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31C7981F30C31800B6C9C5 /* Dependent.swift */; };
+		4D31C7AA1F30C31900B6C9C5 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31C7991F30C31800B6C9C5 /* CGPoint+Extensions.swift */; };
+		4D31C7AB1F30C31900B6C9C5 /* AbstractModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31C79A1F30C31800B6C9C5 /* AbstractModel.swift */; };
+		4D31C7AC1F30C31900B6C9C5 /* ClockHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31C79B1F30C31800B6C9C5 /* ClockHand.swift */; };
+		4D31C7AD1F30C31900B6C9C5 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31C79C1F30C31900B6C9C5 /* UIColor+Extensions.swift */; };
+		4D31C7AE1F30C31900B6C9C5 /* ValueHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31C79D1F30C31900B6C9C5 /* ValueHolder.swift */; };
+		4D31C7AF1F30C31900B6C9C5 /* CATextLayer + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31C79E1F30C31900B6C9C5 /* CATextLayer + Extensions.swift */; };
+		4D31C7B01F30C31900B6C9C5 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31C79F1F30C31900B6C9C5 /* Clock.swift */; };
+		4D31C7B11F30C31900B6C9C5 /* CGRect+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31C7A01F30C31900B6C9C5 /* CGRect+Extensions.swift */; };
+		4D31C7B31F30C31900B6C9C5 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31C7A21F30C31900B6C9C5 /* ClockView.swift */; };
+		4D31C7B41F30C31900B6C9C5 /* ClockHandLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31C7A31F30C31900B6C9C5 /* ClockHandLayer.swift */; };
+		4D31C7B51F30C31900B6C9C5 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31C7A41F30C31900B6C9C5 /* Style.swift */; };
+		4D31C7B61F30C31900B6C9C5 /* DependentSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31C7A51F30C31900B6C9C5 /* DependentSet.swift */; };
+		4D31C7B71F30C31900B6C9C5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31C7A61F30C31900B6C9C5 /* Model.swift */; };
+		4D31C7B81F30C31900B6C9C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31C7A71F30C31900B6C9C5 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +43,6 @@
 /* Begin PBXFileReference section */
 		4D31C7741F30C2FC00B6C9C5 /* TickTock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TickTock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D31C7771F30C2FC00B6C9C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D31C7791F30C2FC00B6C9C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D31C77C1F30C2FC00B6C9C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D31C77E1F30C2FC00B6C9C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D31C7811F30C2FC00B6C9C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +50,22 @@
 		4D31C7881F30C2FC00B6C9C5 /* TickTockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TickTockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D31C78C1F30C2FC00B6C9C5 /* TickTockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickTockTests.swift; sourceTree = "<group>"; };
 		4D31C78E1F30C2FC00B6C9C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D31C7971F30C31800B6C9C5 /* PolarPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PolarPoint.swift; sourceTree = "<group>"; };
+		4D31C7981F30C31800B6C9C5 /* Dependent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dependent.swift; sourceTree = "<group>"; };
+		4D31C7991F30C31800B6C9C5 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		4D31C79A1F30C31800B6C9C5 /* AbstractModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractModel.swift; sourceTree = "<group>"; };
+		4D31C79B1F30C31800B6C9C5 /* ClockHand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockHand.swift; sourceTree = "<group>"; };
+		4D31C79C1F30C31900B6C9C5 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		4D31C79D1F30C31900B6C9C5 /* ValueHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueHolder.swift; sourceTree = "<group>"; };
+		4D31C79E1F30C31900B6C9C5 /* CATextLayer + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CATextLayer + Extensions.swift"; sourceTree = "<group>"; };
+		4D31C79F1F30C31900B6C9C5 /* Clock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
+		4D31C7A01F30C31900B6C9C5 /* CGRect+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Extensions.swift"; sourceTree = "<group>"; };
+		4D31C7A21F30C31900B6C9C5 /* ClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		4D31C7A31F30C31900B6C9C5 /* ClockHandLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockHandLayer.swift; sourceTree = "<group>"; };
+		4D31C7A41F30C31900B6C9C5 /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		4D31C7A51F30C31900B6C9C5 /* DependentSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependentSet.swift; sourceTree = "<group>"; };
+		4D31C7A61F30C31900B6C9C5 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		4D31C7A71F30C31900B6C9C5 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../CITester/CITester/ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +107,23 @@
 		4D31C7761F30C2FC00B6C9C5 /* TickTock */ = {
 			isa = PBXGroup;
 			children = (
+				4D31C79A1F30C31800B6C9C5 /* AbstractModel.swift */,
 				4D31C7771F30C2FC00B6C9C5 /* AppDelegate.swift */,
-				4D31C7791F30C2FC00B6C9C5 /* ViewController.swift */,
+				4D31C79E1F30C31900B6C9C5 /* CATextLayer + Extensions.swift */,
+				4D31C7991F30C31800B6C9C5 /* CGPoint+Extensions.swift */,
+				4D31C7A01F30C31900B6C9C5 /* CGRect+Extensions.swift */,
+				4D31C79F1F30C31900B6C9C5 /* Clock.swift */,
+				4D31C79B1F30C31800B6C9C5 /* ClockHand.swift */,
+				4D31C7A31F30C31900B6C9C5 /* ClockHandLayer.swift */,
+				4D31C7A21F30C31900B6C9C5 /* ClockView.swift */,
+				4D31C7981F30C31800B6C9C5 /* Dependent.swift */,
+				4D31C7A51F30C31900B6C9C5 /* DependentSet.swift */,
+				4D31C7A61F30C31900B6C9C5 /* Model.swift */,
+				4D31C7971F30C31800B6C9C5 /* PolarPoint.swift */,
+				4D31C7A41F30C31900B6C9C5 /* Style.swift */,
+				4D31C79C1F30C31900B6C9C5 /* UIColor+Extensions.swift */,
+				4D31C79D1F30C31900B6C9C5 /* ValueHolder.swift */,
+				4D31C7A71F30C31900B6C9C5 /* ViewController.swift */,
 				4D31C77B1F30C2FC00B6C9C5 /* Main.storyboard */,
 				4D31C77E1F30C2FC00B6C9C5 /* Assets.xcassets */,
 				4D31C7801F30C2FC00B6C9C5 /* LaunchScreen.storyboard */,
@@ -197,8 +242,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D31C77A1F30C2FC00B6C9C5 /* ViewController.swift in Sources */,
+				4D31C7AC1F30C31900B6C9C5 /* ClockHand.swift in Sources */,
+				4D31C7B81F30C31900B6C9C5 /* ViewController.swift in Sources */,
+				4D31C7B11F30C31900B6C9C5 /* CGRect+Extensions.swift in Sources */,
+				4D31C7A81F30C31900B6C9C5 /* PolarPoint.swift in Sources */,
+				4D31C7AB1F30C31900B6C9C5 /* AbstractModel.swift in Sources */,
+				4D31C7B41F30C31900B6C9C5 /* ClockHandLayer.swift in Sources */,
+				4D31C7AE1F30C31900B6C9C5 /* ValueHolder.swift in Sources */,
+				4D31C7AD1F30C31900B6C9C5 /* UIColor+Extensions.swift in Sources */,
+				4D31C7B51F30C31900B6C9C5 /* Style.swift in Sources */,
+				4D31C7AA1F30C31900B6C9C5 /* CGPoint+Extensions.swift in Sources */,
+				4D31C7B71F30C31900B6C9C5 /* Model.swift in Sources */,
+				4D31C7B61F30C31900B6C9C5 /* DependentSet.swift in Sources */,
+				4D31C7AF1F30C31900B6C9C5 /* CATextLayer + Extensions.swift in Sources */,
+				4D31C7A91F30C31900B6C9C5 /* Dependent.swift in Sources */,
+				4D31C7B31F30C31900B6C9C5 /* ClockView.swift in Sources */,
 				4D31C7781F30C2FC00B6C9C5 /* AppDelegate.swift in Sources */,
+				4D31C7B01F30C31900B6C9C5 /* Clock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
